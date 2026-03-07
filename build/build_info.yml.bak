@@ -1,0 +1,5 @@
+west:
+  command: /nix/store/b56njqzmdwp0n7jwx0r5sm9l5b7i7d3c-python3.13-west-1.4.0/bin/west
+    build -p always -b stm32_min_dev@blue
+  topdir: /home/sudha/zephyer_rtos
+  version: 1.4.0

@@ -1,0 +1,2 @@
+# Load board Kconfig descriptions.
+osource "/home/sudha/zephyer_rtos/zephyr/boards/others/stm32_min_dev/Kconfig.stm32_min_dev"

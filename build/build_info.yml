@@ -1,0 +1,62 @@
+cmake:
+  application:
+    configuration-dir: '/home/sudha/zephyer_rtos/zephyer_stm32f103_blink'
+    source-dir: '/home/sudha/zephyer_rtos/zephyer_stm32f103_blink'
+  board:
+    name: 'stm32_min_dev'
+    path:
+     - '/home/sudha/zephyer_rtos/zephyr/boards/others/stm32_min_dev'
+    qualifiers: 'stm32f103xb'
+    revision: 'blue'
+  devicetree:
+    bindings-dirs:
+     - '/home/sudha/zephyer_rtos/zephyr/dts/bindings'
+    files:
+     - '/home/sudha/zephyer_rtos/zephyr/boards/others/stm32_min_dev/stm32_min_dev.dts'
+     - '/home/sudha/zephyer_rtos/zephyr/boards/others/stm32_min_dev/stm32_min_dev_stm32f103xb_blue.overlay'
+     - '/home/sudha/zephyer_rtos/zephyer_stm32f103_blink/app.overlay'
+    include-dirs:
+     - '/home/sudha/zephyer_rtos/modules/hal/ambiq/dts'
+     - '/home/sudha/zephyer_rtos/modules/hal/atmel/include'
+     - '/home/sudha/zephyer_rtos/modules/hal/bouffalolab/include'
+     - '/home/sudha/zephyer_rtos/modules/hal/bouffalolab/include/zephyr'
+     - '/home/sudha/zephyer_rtos/modules/hal/gigadevice/include'
+     - '/home/sudha/zephyer_rtos/modules/hal/microchip/include'
+     - '/home/sudha/zephyer_rtos/modules/hal/microchip/dts'
+     - '/home/sudha/zephyer_rtos/modules/hal/nuvoton/dts'
+     - '/home/sudha/zephyer_rtos/modules/hal/nxp/dts'
+     - '/home/sudha/zephyer_rtos/modules/hal/stm32/dts'
+     - '/home/sudha/zephyer_rtos/modules/hal/ti/dts'
+     - '/home/sudha/zephyer_rtos/zephyr/include'
+     - '/home/sudha/zephyer_rtos/zephyr/include/zephyr'
+     - '/home/sudha/zephyer_rtos/zephyr/dts/common'
+     - '/home/sudha/zephyer_rtos/zephyr/dts/vendor'
+     - '/home/sudha/zephyer_rtos/zephyr/dts/rx'
+     - '/home/sudha/zephyer_rtos/zephyr/dts/x86'
+     - '/home/sudha/zephyer_rtos/zephyr/dts/xtensa'
+     - '/home/sudha/zephyer_rtos/zephyr/dts/sparc'
+     - '/home/sudha/zephyer_rtos/zephyr/dts/riscv'
+     - '/home/sudha/zephyer_rtos/zephyr/dts/posix'
+     - '/home/sudha/zephyer_rtos/zephyr/dts/arm64'
+     - '/home/sudha/zephyer_rtos/zephyr/dts/arm'
+     - '/home/sudha/zephyer_rtos/zephyr/dts/arc'
+     - '/home/sudha/zephyer_rtos/zephyr/dts'
+    user-files:
+     - '/home/sudha/zephyer_rtos/zephyer_stm32f103_blink/app.overlay'
+  kconfig:
+    files:
+     - '/home/sudha/zephyer_rtos/zephyr/boards/others/stm32_min_dev/stm32_min_dev_defconfig'
+     - '/home/sudha/zephyer_rtos/zephyer_stm32f103_blink/prj.conf'
+    user-files:
+     - '/home/sudha/zephyer_rtos/zephyer_stm32f103_blink/prj.conf'
+  toolchain:
+    name: 'zephyr'
+    path: '/nix/store/2rgfn3mq975wy8yrvj571y641laqwk01-zephyr-sdk-0.17.4'
+  zephyr:
+    version: '4.3.99'
+    zephyr-base: '/home/sudha/zephyer_rtos/zephyr'
+version: '0.1.0'
+west:
+  command: '/nix/store/b56njqzmdwp0n7jwx0r5sm9l5b7i7d3c-python3.13-west-1.4.0/bin/west build -p always -b stm32_min_dev@blue'
+  topdir: '/home/sudha/zephyer_rtos'
+  version: '1.4.0'
