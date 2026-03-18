@@ -1,3 +1,7 @@
+/home/sudha/zephyer_rtos/modules/HX711_zephyr_driver/Kconfig
+/home/sudha/zephyer_rtos/modules/HX711_zephyr_driver/drivers/Kconfig
+/home/sudha/zephyer_rtos/modules/HX711_zephyr_driver/drivers/sensor/Kconfig
+/home/sudha/zephyer_rtos/modules/HX711_zephyr_driver/drivers/sensor/hx711/Kconfig
 /home/sudha/zephyer_rtos/modules/debug/percepio/DFM/kernelports/Zephyr/Kconfig
 /home/sudha/zephyer_rtos/modules/debug/percepio/DFM/kernelports/Zephyr/storageports/Filesystem/Kconfig
 /home/sudha/zephyer_rtos/modules/debug/percepio/DFM/kernelports/Zephyr/storageports/Flash/Kconfig

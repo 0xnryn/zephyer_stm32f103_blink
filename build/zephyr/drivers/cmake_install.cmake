@@ -79,7 +79,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/sudha/zephyer_rtos/zephyer_stm32f103_blink/build/zephyr/drivers/console/cmake_install.cmake")
+  include("/home/sudha/zephyer_rtos/zephyer_stm32f103_blink/build/zephyr/drivers/display/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
@@ -89,22 +89,17 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/sudha/zephyer_rtos/zephyer_stm32f103_blink/build/zephyr/drivers/hwinfo/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
   include("/home/sudha/zephyer_rtos/zephyer_stm32f103_blink/build/zephyr/drivers/pinctrl/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/sudha/zephyer_rtos/zephyer_stm32f103_blink/build/zephyr/drivers/reset/cmake_install.cmake")
+  include("/home/sudha/zephyer_rtos/zephyer_stm32f103_blink/build/zephyr/drivers/sensor/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/sudha/zephyer_rtos/zephyer_stm32f103_blink/build/zephyr/drivers/serial/cmake_install.cmake")
+  include("/home/sudha/zephyer_rtos/zephyer_stm32f103_blink/build/zephyr/drivers/spi/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

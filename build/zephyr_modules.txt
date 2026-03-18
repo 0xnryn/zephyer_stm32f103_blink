@@ -58,4 +58,5 @@
 "trusted-firmware-m":"/home/sudha/zephyer_rtos/modules/tee/tf-m/trusted-firmware-m":"${ZEPHYR_TRUSTED_FIRMWARE_M_CMAKE_DIR}"
 "uoscore-uedhoc":"/home/sudha/zephyer_rtos/modules/lib/uoscore-uedhoc":"${ZEPHYR_UOSCORE_UEDHOC_CMAKE_DIR}"
 "zcbor":"/home/sudha/zephyer_rtos/modules/lib/zcbor":"${ZEPHYR_ZCBOR_CMAKE_DIR}"
+"HX711":"/home/sudha/zephyer_rtos/modules/HX711_zephyr_driver":"/home/sudha/zephyer_rtos/modules/HX711_zephyr_driver"
 "nrf_hw_models":"/home/sudha/zephyer_rtos/modules/bsim_hw_models/nrf_hw_models":"/home/sudha/zephyer_rtos/modules/bsim_hw_models/nrf_hw_models"

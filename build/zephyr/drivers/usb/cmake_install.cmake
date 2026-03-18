@@ -39,11 +39,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/sudha/zephyer_rtos/zephyer_stm32f103_blink/build/zephyr/drivers/usb/device/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
   include("/home/sudha/zephyer_rtos/zephyer_stm32f103_blink/build/zephyr/drivers/usb/common/cmake_install.cmake")
 endif()
 

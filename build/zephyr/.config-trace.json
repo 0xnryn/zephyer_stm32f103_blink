@@ -33,7 +33,18 @@
     ]
   ],
   [
-    "CONFIG_DT_HAS_GPIO_LEDS_ENABLED",
+    "CONFIG_DT_HAS_AVIA_HX711_ENABLED",
+    "n",
+    "bool",
+    "y",
+    "default",
+    [
+      "/home/sudha/zephyer_rtos/zephyer_stm32f103_blink/build/Kconfig/Kconfig.dts",
+      1853
+    ]
+  ],
+  [
+    "CONFIG_DT_HAS_GPIO_KEYS_ENABLED",
     "n",
     "bool",
     "y",
@@ -44,6 +55,17 @@
     ]
   ],
   [
+    "CONFIG_DT_HAS_GPIO_LEDS_ENABLED",
+    "n",
+    "bool",
+    "y",
+    "default",
+    [
+      "/home/sudha/zephyer_rtos/zephyer_stm32f103_blink/build/Kconfig/Kconfig.dts",
+      3103
+    ]
+  ],
+  [
     "CONFIG_DT_HAS_MMIO_SRAM_ENABLED",
     "n",
     "bool",
@@ -51,7 +73,7 @@
     "default",
     [
       "/home/sudha/zephyer_rtos/zephyer_stm32f103_blink/build/Kconfig/Kconfig.dts",
-      5728
+      5733
     ]
   ],
   [
@@ -62,7 +84,18 @@
     "default",
     [
       "/home/sudha/zephyer_rtos/zephyer_stm32f103_blink/build/Kconfig/Kconfig.dts",
-      12048
+      12053
+    ]
+  ],
+  [
+    "CONFIG_DT_HAS_SOLOMON_SSD1306_ENABLED",
+    "n",
+    "bool",
+    "y",
+    "default",
+    [
+      "/home/sudha/zephyer_rtos/zephyer_stm32f103_blink/build/Kconfig/Kconfig.dts",
+      12058
     ]
   ],
   [
@@ -73,7 +106,7 @@
     "default",
     [
       "/home/sudha/zephyer_rtos/zephyer_stm32f103_blink/build/Kconfig/Kconfig.dts",
-      12443
+      12448
     ]
   ],
   [
@@ -84,7 +117,7 @@
     "default",
     [
       "/home/sudha/zephyer_rtos/zephyer_stm32f103_blink/build/Kconfig/Kconfig.dts",
-      12573
+      12578
     ]
   ],
   [
@@ -95,7 +128,7 @@
     "default",
     [
       "/home/sudha/zephyer_rtos/zephyer_stm32f103_blink/build/Kconfig/Kconfig.dts",
-      12583
+      12588
     ]
   ],
   [
@@ -106,7 +139,7 @@
     "default",
     [
       "/home/sudha/zephyer_rtos/zephyer_stm32f103_blink/build/Kconfig/Kconfig.dts",
-      12608
+      12613
     ]
   ],
   [
@@ -117,7 +150,7 @@
     "default",
     [
       "/home/sudha/zephyer_rtos/zephyer_stm32f103_blink/build/Kconfig/Kconfig.dts",
-      12618
+      12623
     ]
   ],
   [
@@ -128,7 +161,7 @@
     "default",
     [
       "/home/sudha/zephyer_rtos/zephyer_stm32f103_blink/build/Kconfig/Kconfig.dts",
-      12633
+      12638
     ]
   ],
   [
@@ -139,7 +172,7 @@
     "default",
     [
       "/home/sudha/zephyer_rtos/zephyer_stm32f103_blink/build/Kconfig/Kconfig.dts",
-      12713
+      12718
     ]
   ],
   [
@@ -150,7 +183,7 @@
     "default",
     [
       "/home/sudha/zephyer_rtos/zephyer_stm32f103_blink/build/Kconfig/Kconfig.dts",
-      12763
+      12768
     ]
   ],
   [
@@ -161,7 +194,7 @@
     "default",
     [
       "/home/sudha/zephyer_rtos/zephyer_stm32f103_blink/build/Kconfig/Kconfig.dts",
-      12793
+      12798
     ]
   ],
   [
@@ -172,7 +205,7 @@
     "default",
     [
       "/home/sudha/zephyer_rtos/zephyer_stm32f103_blink/build/Kconfig/Kconfig.dts",
-      12798
+      12803
     ]
   ],
   [
@@ -183,7 +216,7 @@
     "default",
     [
       "/home/sudha/zephyer_rtos/zephyer_stm32f103_blink/build/Kconfig/Kconfig.dts",
-      12838
+      12843
     ]
   ],
   [
@@ -194,7 +227,7 @@
     "default",
     [
       "/home/sudha/zephyer_rtos/zephyer_stm32f103_blink/build/Kconfig/Kconfig.dts",
-      12868
+      12873
     ]
   ],
   [
@@ -205,7 +238,7 @@
     "default",
     [
       "/home/sudha/zephyer_rtos/zephyer_stm32f103_blink/build/Kconfig/Kconfig.dts",
-      12878
+      12883
     ]
   ],
   [
@@ -216,7 +249,7 @@
     "default",
     [
       "/home/sudha/zephyer_rtos/zephyer_stm32f103_blink/build/Kconfig/Kconfig.dts",
-      12888
+      12893
     ]
   ],
   [
@@ -227,7 +260,7 @@
     "default",
     [
       "/home/sudha/zephyer_rtos/zephyer_stm32f103_blink/build/Kconfig/Kconfig.dts",
-      12893
+      12898
     ]
   ],
   [
@@ -238,7 +271,7 @@
     "default",
     [
       "/home/sudha/zephyer_rtos/zephyer_stm32f103_blink/build/Kconfig/Kconfig.dts",
-      12973
+      12978
     ]
   ],
   [
@@ -249,7 +282,7 @@
     "default",
     [
       "/home/sudha/zephyer_rtos/zephyer_stm32f103_blink/build/Kconfig/Kconfig.dts",
-      12983
+      12988
     ]
   ],
   [
@@ -260,7 +293,7 @@
     "default",
     [
       "/home/sudha/zephyer_rtos/zephyer_stm32f103_blink/build/Kconfig/Kconfig.dts",
-      12988
+      12993
     ]
   ],
   [
@@ -271,7 +304,7 @@
     "default",
     [
       "/home/sudha/zephyer_rtos/zephyer_stm32f103_blink/build/Kconfig/Kconfig.dts",
-      12993
+      12998
     ]
   ],
   [
@@ -282,18 +315,7 @@
     "default",
     [
       "/home/sudha/zephyer_rtos/zephyer_stm32f103_blink/build/Kconfig/Kconfig.dts",
-      14643
-    ]
-  ],
-  [
-    "CONFIG_DT_HAS_ZEPHYR_CDC_ACM_UART_ENABLED",
-    "n",
-    "bool",
-    "y",
-    "default",
-    [
-      "/home/sudha/zephyer_rtos/zephyer_stm32f103_blink/build/Kconfig/Kconfig.dts",
-      15613
+      14648
     ]
   ],
   [
@@ -304,7 +326,7 @@
     "default",
     [
       "/home/sudha/zephyer_rtos/zephyer_stm32f103_blink/build/Kconfig/Kconfig.dts",
-      15903
+      15908
     ]
   ],
   [
@@ -315,7 +337,7 @@
     "default",
     [
       "/home/sudha/zephyer_rtos/zephyer_stm32f103_blink/build/Kconfig/Kconfig.dts",
-      16013
+      16018
     ]
   ],
   [
@@ -339,10 +361,10 @@
     "y",
     "int",
     "1024",
-    "default",
+    "assign",
     [
-      "/home/sudha/zephyer_rtos/zephyr/kernel/Kconfig",
-      164
+      "/home/sudha/zephyer_rtos/zephyer_stm32f103_blink/prj.conf",
+      27
     ]
   ],
   [
@@ -358,30 +380,32 @@
     "y",
     "int",
     "1024",
-    "default",
+    "assign",
     [
-      "/home/sudha/zephyer_rtos/zephyr/kernel/Kconfig",
-      621
+      "/home/sudha/zephyer_rtos/zephyer_stm32f103_blink/prj.conf",
+      28
     ]
   ],
   [
     "CONFIG_SERIAL",
     "y",
     "bool",
-    "y",
+    "n",
     "assign",
     [
-      "/home/sudha/zephyer_rtos/zephyr/boards/others/stm32_min_dev/stm32_min_dev_defconfig",
-      8
+      "/home/sudha/zephyer_rtos/zephyer_stm32f103_blink/prj.conf",
+      19
     ]
   ],
   [
     "CONFIG_SPI",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "y",
+    "select",
+    [
+      "SSD1306 && (DT_HAS_SOLOMON_SSD1306_ENABLED || DT_HAS_SOLOMON_SSD1309_ENABLED || DT_HAS_SINOWEALTH_SH1106_ENABLED) && DISPLAY"
+    ]
   ],
   [
     "CONFIG_MIPI_DSI",
@@ -408,17 +432,23 @@
     null
   ],
   [
-    "CONFIG_UART_INTERRUPT_DRIVEN",
+    "CONFIG_GPIO_HOGS",
     "y",
     "bool",
-    "y",
-    "select",
-    [
-      "USB_CDC_ACM && SERIAL && DT_HAS_ZEPHYR_CDC_ACM_UART_ENABLED && USB_DEVICE_STACK"
-    ]
+    null,
+    "unset",
+    null
   ],
   [
-    "CONFIG_GPIO_HOGS",
+    "CONFIG_SPI_STM32_INTERRUPT",
+    "y",
+    "bool",
+    null,
+    "unset",
+    null
+  ],
+  [
+    "CONFIG_SPI_STM32_DMA",
     "y",
     "bool",
     null,
@@ -956,11 +986,9 @@
     "CONFIG_RESET",
     "y",
     "bool",
-    "y",
-    "select",
-    [
-      "UART_STM32 && DT_HAS_ST_STM32_UART_ENABLED && SERIAL"
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_ARCH_SW_ISR_TABLE_ALIGN",
@@ -990,17 +1018,6 @@
     null
   ],
   [
-    "CONFIG_UART_USE_RUNTIME_CONFIGURE",
-    "y",
-    "bool",
-    "y",
-    "default",
-    [
-      "/home/sudha/zephyer_rtos/zephyr/drivers/serial/Kconfig",
-      53
-    ]
-  ],
-  [
     "CONFIG_SYSCON",
     "y",
     "bool",
@@ -1022,11 +1039,11 @@
     "CONFIG_CONSOLE",
     "y",
     "bool",
-    "y",
+    "n",
     "assign",
     [
-      "/home/sudha/zephyer_rtos/zephyr/boards/others/stm32_min_dev/stm32_min_dev_defconfig",
-      11
+      "/home/sudha/zephyer_rtos/zephyer_stm32f103_blink/prj.conf",
+      20
     ]
   ],
   [
@@ -1041,11 +1058,11 @@
     "CONFIG_COMMON_LIBC_MALLOC_ARENA_SIZE",
     "y",
     "int",
-    "-1",
+    "0",
     "default",
     [
       "/home/sudha/zephyer_rtos/zephyr/lib/libc/common/Kconfig",
-      64
+      60
     ]
   ],
   [
@@ -1109,6 +1126,17 @@
     [
       "/home/sudha/zephyer_rtos/zephyr/arch/Kconfig",
       474
+    ]
+  ],
+  [
+    "CONFIG_MINIMAL_LIBC_OPTIMIZE_STRING_FOR_SIZE",
+    "y",
+    "bool",
+    "y",
+    "default",
+    [
+      "/home/sudha/zephyer_rtos/zephyr/lib/libc/minimal/Kconfig",
+      25
     ]
   ],
   [
@@ -2244,6 +2272,192 @@
     null
   ],
   [
+    "CONFIG_HX711",
+    "y",
+    "bool",
+    "y",
+    "assign",
+    [
+      "/home/sudha/zephyer_rtos/zephyer_stm32f103_blink/prj.conf",
+      13
+    ]
+  ],
+  [
+    "CONFIG_HX711_OFFSET",
+    "y",
+    "int",
+    "0",
+    "default",
+    [
+      "/home/sudha/zephyer_rtos/modules/HX711_zephyr_driver/drivers/sensor/hx711/Kconfig",
+      16
+    ]
+  ],
+  [
+    "CONFIG_HX711_SLOPE_INTEGER",
+    "y",
+    "int",
+    "1",
+    "default",
+    [
+      "/home/sudha/zephyer_rtos/modules/HX711_zephyr_driver/drivers/sensor/hx711/Kconfig",
+      22
+    ]
+  ],
+  [
+    "CONFIG_HX711_SLOPE_DECIMAL",
+    "y",
+    "int",
+    "0",
+    "default",
+    [
+      "/home/sudha/zephyer_rtos/modules/HX711_zephyr_driver/drivers/sensor/hx711/Kconfig",
+      28
+    ]
+  ],
+  [
+    "CONFIG_HX711_CALIBRATION_WEIGHT",
+    "y",
+    "int",
+    "0",
+    "default",
+    [
+      "/home/sudha/zephyer_rtos/modules/HX711_zephyr_driver/drivers/sensor/hx711/Kconfig",
+      34
+    ]
+  ],
+  [
+    "CONFIG_HX711_RATE_10HZ",
+    "y",
+    "bool",
+    "y",
+    "default",
+    [
+      "/home/sudha/zephyer_rtos/modules/HX711_zephyr_driver/drivers/sensor/hx711/Kconfig",
+      40
+    ]
+  ],
+  [
+    "CONFIG_HX711_RATE_80HZ",
+    "y",
+    "bool",
+    null,
+    "unset",
+    null
+  ],
+  [
+    "CONFIG_HX711_SAMPLING_RATE",
+    "y",
+    "int",
+    "0",
+    "default",
+    [
+      "/home/sudha/zephyer_rtos/modules/HX711_zephyr_driver/drivers/sensor/hx711/Kconfig",
+      51
+    ]
+  ],
+  [
+    "CONFIG_HX711_GAIN_32X",
+    "y",
+    "bool",
+    null,
+    "unset",
+    null
+  ],
+  [
+    "CONFIG_HX711_GAIN_64X",
+    "y",
+    "bool",
+    null,
+    "unset",
+    null
+  ],
+  [
+    "CONFIG_HX711_GAIN_128X",
+    "y",
+    "bool",
+    "y",
+    "default",
+    [
+      "/home/sudha/zephyer_rtos/modules/HX711_zephyr_driver/drivers/sensor/hx711/Kconfig",
+      56
+    ]
+  ],
+  [
+    "CONFIG_HX711_DISABLE_INTERRUPTS_WHILE_POLLING",
+    "y",
+    "bool",
+    null,
+    "unset",
+    null
+  ],
+  [
+    "CONFIG_HX711_GAIN",
+    "n",
+    "int",
+    "1",
+    "default",
+    [
+      "/home/sudha/zephyer_rtos/modules/HX711_zephyr_driver/drivers/sensor/hx711/Kconfig",
+      74
+    ]
+  ],
+  [
+    "CONFIG_HX711_SAMPLE_FETCH_TIMEOUT_MS",
+    "y",
+    "int",
+    "1000",
+    "default",
+    [
+      "/home/sudha/zephyer_rtos/modules/HX711_zephyr_driver/drivers/sensor/hx711/Kconfig",
+      80
+    ]
+  ],
+  [
+    "CONFIG_HX711_ENABLE_MEDIAN_FILTER",
+    "y",
+    "bool",
+    "y",
+    "assign",
+    [
+      "/home/sudha/zephyer_rtos/zephyer_stm32f103_blink/prj.conf",
+      15
+    ]
+  ],
+  [
+    "CONFIG_HX711_MEDIAN_FILTER_WINDOW_SIZE",
+    "y",
+    "int",
+    "3",
+    "assign",
+    [
+      "/home/sudha/zephyer_rtos/zephyer_stm32f103_blink/prj.conf",
+      16
+    ]
+  ],
+  [
+    "CONFIG_HX711_ENABLE_EMA_FILTER",
+    "y",
+    "bool",
+    "n",
+    "assign",
+    [
+      "/home/sudha/zephyer_rtos/zephyer_stm32f103_blink/prj.conf",
+      14
+    ]
+  ],
+  [
+    "CONFIG_ZEPHYR_HX711_MODULE",
+    "n",
+    "bool",
+    "y",
+    "default",
+    [
+      "/home/sudha/zephyer_rtos/zephyer_stm32f103_blink/build/Kconfig/Kconfig.modules",
+      344
+    ]
+  ],
+  [
     "CONFIG_ZEPHYR_NRF_HW_MODELS_MODULE",
     "n",
     "bool",
@@ -2251,7 +2465,7 @@
     "default",
     [
       "/home/sudha/zephyer_rtos/zephyer_stm32f103_blink/build/Kconfig/Kconfig.modules",
-      342
+      348
     ]
   ],
   [
@@ -2310,36 +2524,6 @@
     "select",
     [
       "SOC_SERIES_STM32F1X && SOC_FAMILY_STM32"
-    ]
-  ],
-  [
-    "CONFIG_USE_STM32_HAL_PCD",
-    "n",
-    "bool",
-    "y",
-    "select",
-    [
-      "USB_DC_STM32 && (DT_HAS_ST_STM32_OTGFS_ENABLED || DT_HAS_ST_STM32_OTGHS_ENABLED || DT_HAS_ST_STM32_USB_ENABLED) && USB_DEVICE_DRIVER"
-    ]
-  ],
-  [
-    "CONFIG_USE_STM32_HAL_PCD_EX",
-    "n",
-    "bool",
-    "y",
-    "select",
-    [
-      "USB_DC_STM32 && (DT_HAS_ST_STM32_OTGFS_ENABLED || DT_HAS_ST_STM32_OTGHS_ENABLED || DT_HAS_ST_STM32_USB_ENABLED) && USB_DEVICE_DRIVER"
-    ]
-  ],
-  [
-    "CONFIG_USE_STM32_LL_USB",
-    "n",
-    "bool",
-    "y",
-    "select",
-    [
-      "USB_DC_STM32 && (DT_HAS_ST_STM32_OTGFS_ENABLED || DT_HAS_ST_STM32_OTGHS_ENABLED || DT_HAS_ST_STM32_USB_ENABLED) && USB_DEVICE_DRIVER"
     ]
   ],
   [
@@ -2538,11 +2722,9 @@
     "CONFIG_HWINFO",
     "y",
     "bool",
-    "y",
-    "select",
-    [
-      "USB_DEVICE_STACK"
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_STM32_ENABLE_DEBUG_SLEEP_STOP",
@@ -3373,16 +3555,6 @@
     ]
   ],
   [
-    "CONFIG_LIBC_ERRNO",
-    "n",
-    "bool",
-    "y",
-    "select",
-    [
-      "PICOLIBC && THREAD_LOCAL_STORAGE && PICOLIBC_SUPPORTED && <choice LIBC_IMPLEMENTATION>"
-    ]
-  ],
-  [
     "CONFIG_ERRNO",
     "y",
     "bool",
@@ -3391,17 +3563,6 @@
     [
       "/home/sudha/zephyer_rtos/zephyr/kernel/Kconfig",
       409
-    ]
-  ],
-  [
-    "CONFIG_CURRENT_THREAD_USE_TLS",
-    "y",
-    "bool",
-    "y",
-    "default",
-    [
-      "/home/sudha/zephyer_rtos/zephyr/kernel/Kconfig",
-      433
     ]
   ],
   [
@@ -3705,11 +3866,9 @@
     "CONFIG_THREAD_LOCAL_STORAGE",
     "y",
     "bool",
-    "y",
-    "select",
-    [
-      "PICOLIBC_USE_TOOLCHAIN && ARCH_HAS_THREAD_LOCAL_STORAGE && TOOLCHAIN_SUPPORTS_THREAD_LOCAL_STORAGE && y = y && <choice PICOLIBC_SOURCE>"
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_TOOLCHAIN_SUPPORTS_STATIC_INIT_GNU",
@@ -3971,113 +4130,6 @@
     null
   ],
   [
-    "CONFIG_CONSOLE_INPUT_MAX_LINE_LEN",
-    "y",
-    "int",
-    "128",
-    "default",
-    [
-      "/home/sudha/zephyer_rtos/zephyr/drivers/console/Kconfig",
-      16
-    ]
-  ],
-  [
-    "CONFIG_CONSOLE_HAS_DRIVER",
-    "n",
-    "bool",
-    "y",
-    "select",
-    [
-      "UART_CONSOLE && SERIAL && SERIAL_HAS_DRIVER && CONSOLE"
-    ]
-  ],
-  [
-    "CONFIG_CONSOLE_HANDLER",
-    "y",
-    "bool",
-    null,
-    "unset",
-    null
-  ],
-  [
-    "CONFIG_CONSOLE_INIT_PRIORITY",
-    "y",
-    "int",
-    "60",
-    "default",
-    [
-      "/home/sudha/zephyer_rtos/zephyr/drivers/console/Kconfig",
-      37
-    ]
-  ],
-  [
-    "CONFIG_UART_CONSOLE",
-    "y",
-    "bool",
-    "y",
-    "assign",
-    [
-      "/home/sudha/zephyer_rtos/zephyr/boards/others/stm32_min_dev/stm32_min_dev_defconfig",
-      12
-    ]
-  ],
-  [
-    "CONFIG_UART_CONSOLE_DEBUG_SERVER_HOOKS",
-    "y",
-    "bool",
-    null,
-    "unset",
-    null
-  ],
-  [
-    "CONFIG_UART_CONSOLE_MCUMGR",
-    "y",
-    "bool",
-    null,
-    "unset",
-    null
-  ],
-  [
-    "CONFIG_RAM_CONSOLE",
-    "y",
-    "bool",
-    null,
-    "unset",
-    null
-  ],
-  [
-    "CONFIG_IPM_CONSOLE_SENDER",
-    "y",
-    "bool",
-    null,
-    "unset",
-    null
-  ],
-  [
-    "CONFIG_IPM_CONSOLE_RECEIVER",
-    "y",
-    "bool",
-    null,
-    "unset",
-    null
-  ],
-  [
-    "CONFIG_UART_MCUMGR",
-    "y",
-    "bool",
-    null,
-    "unset",
-    null
-  ],
-  [
-    "CONFIG_EFI_CONSOLE",
-    "y",
-    "bool",
-    null,
-    "unset",
-    null
-  ],
-  [
     "CONFIG_COREDUMP_DEVICE",
     "y",
     "bool",
@@ -4135,6 +4187,50 @@
   ],
   [
     "CONFIG_DISPLAY",
+    "y",
+    "bool",
+    "y",
+    "assign",
+    [
+      "/home/sudha/zephyer_rtos/zephyer_stm32f103_blink/prj.conf",
+      5
+    ]
+  ],
+  [
+    "CONFIG_DISPLAY_INIT_PRIORITY",
+    "y",
+    "int",
+    "85",
+    "default",
+    [
+      "/home/sudha/zephyer_rtos/zephyr/drivers/display/Kconfig",
+      15
+    ]
+  ],
+  [
+    "CONFIG_SSD1306",
+    "y",
+    "bool",
+    "y",
+    "assign",
+    [
+      "/home/sudha/zephyer_rtos/zephyer_stm32f103_blink/prj.conf",
+      6
+    ]
+  ],
+  [
+    "CONFIG_SSD1306_DEFAULT_CONTRAST",
+    "y",
+    "int",
+    "128",
+    "default",
+    [
+      "/home/sudha/zephyer_rtos/zephyr/drivers/display/Kconfig.ssd1306",
+      23
+    ]
+  ],
+  [
+    "CONFIG_SSD135X",
     "y",
     "bool",
     null,
@@ -4271,27 +4367,6 @@
     null,
     "unset",
     null
-  ],
-  [
-    "CONFIG_HWINFO_HAS_DRIVER",
-    "n",
-    "bool",
-    "y",
-    "select",
-    [
-      "HWINFO_STM32 && SOC_FAMILY_STM32 && !SOC_SERIES_STM32WB0X && HWINFO"
-    ]
-  ],
-  [
-    "CONFIG_HWINFO_STM32",
-    "y",
-    "bool",
-    "y",
-    "default",
-    [
-      "/home/sudha/zephyer_rtos/zephyr/drivers/hwinfo/Kconfig.stm32",
-      6
-    ]
   ],
   [
     "CONFIG_HWSPINLOCK",
@@ -4469,8 +4544,7 @@
     "y",
     "select",
     [
-      "UART_STM32 && DT_HAS_ST_STM32_UART_ENABLED && SERIAL",
-      "USB_DC_STM32 && (DT_HAS_ST_STM32_OTGFS_ENABLED || DT_HAS_ST_STM32_OTGHS_ENABLED || DT_HAS_ST_STM32_USB_ENABLED) && USB_DEVICE_DRIVER"
+      "SPI_STM32 && DT_HAS_ST_STM32_SPI_ENABLED && SPI"
     ]
   ],
   [
@@ -4568,28 +4642,6 @@
     null
   ],
   [
-    "CONFIG_RESET_INIT_PRIORITY",
-    "y",
-    "int",
-    "35",
-    "default",
-    [
-      "/home/sudha/zephyer_rtos/zephyr/drivers/reset/Kconfig",
-      21
-    ]
-  ],
-  [
-    "CONFIG_RESET_STM32",
-    "y",
-    "bool",
-    "y",
-    "default",
-    [
-      "/home/sudha/zephyer_rtos/zephyr/drivers/reset/Kconfig.stm32",
-      6
-    ]
-  ],
-  [
     "CONFIG_RETAINED_MEM",
     "y",
     "bool",
@@ -4617,9 +4669,61 @@
     "CONFIG_SENSOR",
     "y",
     "bool",
+    "y",
+    "assign",
+    [
+      "/home/sudha/zephyer_rtos/zephyer_stm32f103_blink/prj.conf",
+      12
+    ]
+  ],
+  [
+    "CONFIG_SENSOR_INIT_PRIORITY",
+    "y",
+    "int",
+    "90",
+    "default",
+    [
+      "/home/sudha/zephyer_rtos/zephyr/drivers/sensor/Kconfig",
+      20
+    ]
+  ],
+  [
+    "CONFIG_SENSOR_ASYNC_API",
+    "y",
+    "bool",
     null,
     "unset",
     null
+  ],
+  [
+    "CONFIG_SENSOR_INFO",
+    "y",
+    "bool",
+    null,
+    "unset",
+    null
+  ],
+  [
+    "CONFIG_ADE7978_SHUNT_RESISTOR",
+    "y",
+    "int",
+    "200",
+    "default",
+    [
+      "/home/sudha/zephyer_rtos/zephyr/drivers/sensor/adi/ade7978/Kconfig",
+      15
+    ]
+  ],
+  [
+    "CONFIG_ADE7978_VOLTAGE_DIVIDER",
+    "y",
+    "int",
+    "1131",
+    "default",
+    [
+      "/home/sudha/zephyer_rtos/zephyr/drivers/sensor/adi/ade7978/Kconfig",
+      21
+    ]
   ],
   [
     "CONFIG_SENT",
@@ -4630,107 +4734,77 @@
     null
   ],
   [
-    "CONFIG_SERIAL_HAS_DRIVER",
-    "n",
-    "bool",
-    "y",
-    "select",
-    [
-      "UART_STM32 && DT_HAS_ST_STM32_UART_ENABLED && SERIAL",
-      "USB_CDC_ACM && SERIAL && DT_HAS_ZEPHYR_CDC_ACM_UART_ENABLED && USB_DEVICE_STACK"
-    ]
-  ],
-  [
-    "CONFIG_SERIAL_SUPPORT_INTERRUPT",
-    "n",
-    "bool",
-    "y",
-    "select",
-    [
-      "UART_STM32 && DT_HAS_ST_STM32_UART_ENABLED && SERIAL",
-      "USB_CDC_ACM && SERIAL && DT_HAS_ZEPHYR_CDC_ACM_UART_ENABLED && USB_DEVICE_STACK"
-    ]
-  ],
-  [
-    "CONFIG_SERIAL_INIT_PRIORITY",
-    "y",
-    "int",
-    "50",
-    "default",
-    [
-      "/home/sudha/zephyer_rtos/zephyr/drivers/serial/Kconfig",
-      36
-    ]
-  ],
-  [
-    "CONFIG_UART_LINE_CTRL",
-    "y",
-    "bool",
-    "y",
-    "assign",
-    [
-      "/home/sudha/zephyer_rtos/zephyer_stm32f103_blink/prj.conf",
-      11
-    ]
-  ],
-  [
-    "CONFIG_UART_DRV_CMD",
-    "y",
-    "bool",
-    null,
-    "unset",
-    null
-  ],
-  [
-    "CONFIG_UART_WIDE_DATA",
-    "y",
-    "bool",
-    null,
-    "unset",
-    null
-  ],
-  [
-    "CONFIG_UART_PIPE",
-    "y",
-    "bool",
-    null,
-    "unset",
-    null
-  ],
-  [
-    "CONFIG_UART_ASYNC_RX_HELPER",
-    "y",
-    "bool",
-    null,
-    "unset",
-    null
-  ],
-  [
-    "CONFIG_UART_NPCX_FIFO_EX",
-    "y",
-    "bool",
-    null,
-    "unset",
-    null
-  ],
-  [
-    "CONFIG_UART_STM32",
-    "y",
-    "bool",
-    "y",
-    "default",
-    [
-      "/home/sudha/zephyer_rtos/zephyr/drivers/serial/Kconfig.stm32",
-      8
-    ]
-  ],
-  [
     "CONFIG_SMBUS",
     "y",
     "bool",
     null,
     "unset",
     null
+  ],
+  [
+    "CONFIG_SPI_ASYNC",
+    "y",
+    "bool",
+    null,
+    "unset",
+    null
+  ],
+  [
+    "CONFIG_SPI_RTIO",
+    "y",
+    "bool",
+    null,
+    "unset",
+    null
+  ],
+  [
+    "CONFIG_SPI_SLAVE",
+    "y",
+    "bool",
+    null,
+    "unset",
+    null
+  ],
+  [
+    "CONFIG_SPI_EXTENDED_MODES",
+    "y",
+    "bool",
+    null,
+    "unset",
+    null
+  ],
+  [
+    "CONFIG_SPI_INIT_PRIORITY",
+    "y",
+    "int",
+    "50",
+    "default",
+    [
+      "/home/sudha/zephyer_rtos/zephyr/drivers/spi/Kconfig",
+      77
+    ]
+  ],
+  [
+    "CONFIG_SPI_COMPLETION_TIMEOUT_TOLERANCE",
+    "y",
+    "int",
+    "200",
+    "default",
+    [
+      "/home/sudha/zephyer_rtos/zephyr/drivers/spi/Kconfig",
+      83
+    ]
+  ],
+  [
+    "CONFIG_SPI_STM32",
+    "y",
+    "bool",
+    "y",
+    "default",
+    [
+      "/home/sudha/zephyer_rtos/zephyr/drivers/spi/Kconfig.stm32",
+      8
+    ]
   ],
   [
     "CONFIG_STEPPER",
@@ -4868,45 +4942,6 @@
   ],
   [
     "CONFIG_USB_DEVICE_DRIVER",
-    "y",
-    "bool",
-    "y",
-    "select",
-    [
-      "USB_DEVICE_STACK"
-    ]
-  ],
-  [
-    "CONFIG_USB_DC_HAS_HS_SUPPORT",
-    "y",
-    "bool",
-    null,
-    "unset",
-    null
-  ],
-  [
-    "CONFIG_USB_DEVICE_REMOTE_WAKEUP",
-    "y",
-    "bool",
-    "y",
-    "imply",
-    [
-      "USB_DC_STM32 && (DT_HAS_ST_STM32_OTGFS_ENABLED || DT_HAS_ST_STM32_OTGHS_ENABLED || DT_HAS_ST_STM32_USB_ENABLED) && USB_DEVICE_DRIVER"
-    ]
-  ],
-  [
-    "CONFIG_USB_DC_STM32",
-    "y",
-    "bool",
-    "y",
-    "default",
-    [
-      "/home/sudha/zephyer_rtos/zephyr/drivers/usb/device/Kconfig",
-      50
-    ]
-  ],
-  [
-    "CONFIG_USB_DC_STM32_CLOCK_CHECK",
     "y",
     "bool",
     null,
@@ -5049,20 +5084,17 @@
     "CONFIG_MINIMAL_LIBC",
     "y",
     "bool",
-    null,
-    "unset",
+    "y",
+    "assign",
     null
   ],
   [
     "CONFIG_PICOLIBC",
     "y",
     "bool",
-    "y",
-    "default",
-    [
-      "/home/sudha/zephyer_rtos/zephyr/lib/libc/Kconfig",
-      81
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_NEWLIB_LIBC",
@@ -5097,33 +5129,83 @@
     "y",
     "select",
     [
-      "PICOLIBC && PICOLIBC_SUPPORTED && <choice LIBC_IMPLEMENTATION>"
+      "MINIMAL_LIBC && !REQUIRES_FULL_LIBC && MINIMAL_LIBC_SUPPORTED && <choice LIBC_IMPLEMENTATION>"
+    ]
+  ],
+  [
+    "CONFIG_COMMON_LIBC_ASCTIME",
+    "n",
+    "bool",
+    "y",
+    "select",
+    [
+      "COMMON_LIBC_ASCTIME_R",
+      "MINIMAL_LIBC_TIME && MINIMAL_LIBC"
     ]
   ],
   [
     "CONFIG_COMMON_LIBC_ASCTIME_R",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "y",
+    "select",
+    [
+      "POSIX_C_LANG_SUPPORT_R && !TC_PROVIDES_POSIX_C_LANG_SUPPORT_R"
+    ]
+  ],
+  [
+    "CONFIG_COMMON_LIBC_CTIME",
+    "n",
+    "bool",
+    "y",
+    "select",
+    [
+      "COMMON_LIBC_CTIME_R",
+      "MINIMAL_LIBC_TIME && MINIMAL_LIBC"
+    ]
   ],
   [
     "CONFIG_COMMON_LIBC_CTIME_R",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "y",
+    "select",
+    [
+      "POSIX_C_LANG_SUPPORT_R && !TC_PROVIDES_POSIX_C_LANG_SUPPORT_R"
+    ]
+  ],
+  [
+    "CONFIG_COMMON_LIBC_GMTIME_R",
+    "n",
+    "bool",
+    "y",
+    "select",
+    [
+      "COMMON_LIBC_LOCALTIME_R_UTC",
+      "MINIMAL_LIBC_TIME && MINIMAL_LIBC",
+      "POSIX_C_LANG_SUPPORT_R && !TC_PROVIDES_POSIX_C_LANG_SUPPORT_R"
+    ]
+  ],
+  [
+    "CONFIG_COMMON_LIBC_LOCALTIME_R_UTC",
+    "n",
+    "bool",
+    "y",
+    "select",
+    [
+      "COMMON_LIBC_CTIME",
+      "MINIMAL_LIBC_TIME && MINIMAL_LIBC",
+      "POSIX_C_LANG_SUPPORT_R && !TC_PROVIDES_POSIX_C_LANG_SUPPORT_R"
+    ]
   ],
   [
     "CONFIG_COMMON_LIBC_TIME",
     "n",
     "bool",
     "y",
-    "imply",
+    "select",
     [
-      "PICOLIBC && PICOLIBC_SUPPORTED && <choice LIBC_IMPLEMENTATION>"
+      "MINIMAL_LIBC_TIME && MINIMAL_LIBC"
     ]
   ],
   [
@@ -5133,7 +5215,7 @@
     "y",
     "imply",
     [
-      "PICOLIBC && PICOLIBC_SUPPORTED && <choice LIBC_IMPLEMENTATION>"
+      "MINIMAL_LIBC && !REQUIRES_FULL_LIBC && MINIMAL_LIBC_SUPPORTED && <choice LIBC_IMPLEMENTATION>"
     ]
   ],
   [
@@ -5141,10 +5223,9 @@
     "y",
     "bool",
     "y",
-    "default",
+    "imply",
     [
-      "/home/sudha/zephyer_rtos/zephyr/lib/libc/common/Kconfig",
-      88
+      "MINIMAL_LIBC && !REQUIRES_FULL_LIBC && MINIMAL_LIBC_SUPPORTED && <choice LIBC_IMPLEMENTATION>"
     ]
   ],
   [
@@ -5152,10 +5233,19 @@
     "y",
     "bool",
     "y",
-    "default",
+    "imply",
     [
-      "/home/sudha/zephyer_rtos/zephyr/lib/libc/common/Kconfig",
-      97
+      "MINIMAL_LIBC && !REQUIRES_FULL_LIBC && MINIMAL_LIBC_SUPPORTED && <choice LIBC_IMPLEMENTATION>"
+    ]
+  ],
+  [
+    "CONFIG_COMMON_LIBC_STRNLEN",
+    "n",
+    "bool",
+    "y",
+    "select",
+    [
+      "MINIMAL_LIBC && !REQUIRES_FULL_LIBC && MINIMAL_LIBC_SUPPORTED && <choice LIBC_IMPLEMENTATION>"
     ]
   ],
   [
@@ -5167,26 +5257,18 @@
     null
   ],
   [
-    "CONFIG_PICOLIBC_USE_MODULE",
-    "y",
-    "bool",
-    null,
-    "unset",
-    null
-  ],
-  [
-    "CONFIG_PICOLIBC_USE_TOOLCHAIN",
+    "CONFIG_MINIMAL_LIBC_NON_REENTRANT_FUNCTIONS",
     "y",
     "bool",
     "y",
     "default",
     [
-      "/home/sudha/zephyer_rtos/zephyr/lib/libc/picolibc/Kconfig",
+      "/home/sudha/zephyer_rtos/zephyr/lib/libc/minimal/Kconfig",
       8
     ]
   ],
   [
-    "CONFIG_PICOLIBC_IO_FLOAT",
+    "CONFIG_MINIMAL_LIBC_LL_PRINTF",
     "y",
     "bool",
     null,
@@ -5194,26 +5276,31 @@
     null
   ],
   [
-    "CONFIG_PICOLIBC_IO_LONG_LONG",
+    "CONFIG_MINIMAL_LIBC_RAND",
+    "y",
+    "bool",
+    null,
+    "unset",
+    null
+  ],
+  [
+    "CONFIG_MINIMAL_LIBC_TIME",
     "y",
     "bool",
     "y",
     "default",
     [
-      "/home/sudha/zephyer_rtos/zephyr/lib/libc/picolibc/Kconfig",
-      34
+      "/home/sudha/zephyer_rtos/zephyr/lib/libc/minimal/Kconfig",
+      46
     ]
   ],
   [
-    "CONFIG_STDOUT_CONSOLE",
+    "CONFIG_MINIMAL_LIBC_STRING_ERROR_TABLE",
     "y",
     "bool",
-    "y",
-    "default",
-    [
-      "/home/sudha/zephyer_rtos/zephyr/lib/libc/Kconfig",
-      173
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_NEED_LIBC_MEM_PARTITION",
@@ -5222,8 +5309,7 @@
     "y",
     "select",
     [
-      "PICOLIBC && PICOLIBC_SUPPORTED && <choice LIBC_IMPLEMENTATION>",
-      "COMMON_LIBC_MALLOC && COMMON_LIBC_MALLOC_ARENA_SIZE != 0"
+      "MINIMAL_LIBC_NON_REENTRANT_FUNCTIONS && MINIMAL_LIBC"
     ]
   ],
   [
@@ -5476,6 +5562,25 @@
     null
   ],
   [
+    "CONFIG_CBPRINTF_FP_ALWAYS_A",
+    "y",
+    "bool",
+    null,
+    "unset",
+    null
+  ],
+  [
+    "CONFIG_CBPRINTF_N_SPECIFIER",
+    "y",
+    "bool",
+    "y",
+    "default",
+    [
+      "/home/sudha/zephyer_rtos/zephyr/lib/os/Kconfig.cbprintf",
+      107
+    ]
+  ],
+  [
     "CONFIG_CBPRINTF_LIBC_SUBSTS",
     "y",
     "bool",
@@ -5594,22 +5699,13 @@
     null
   ],
   [
-    "CONFIG_TC_PROVIDES_POSIX_C_LANG_SUPPORT_R",
-    "n",
-    "bool",
-    "y",
-    "select",
-    [
-      "PICOLIBC && PICOLIBC_SUPPORTED && <choice LIBC_IMPLEMENTATION>"
-    ]
-  ],
-  [
     "CONFIG_POSIX_C_LANG_SUPPORT_R",
     "y",
     "bool",
     "y",
     "select",
     [
+      "MINIMAL_LIBC_TIME && MINIMAL_LIBC",
       "POSIX_AEP_CHOICE_ZEPHYR && <choice POSIX_AEP_CHOICE>"
     ]
   ],
@@ -5665,8 +5761,7 @@
     "y",
     "select",
     [
-      "MULTITHREADING",
-      "USB_CDC_ACM && SERIAL && DT_HAS_ZEPHYR_CDC_ACM_UART_ENABLED && USB_DEVICE_STACK"
+      "MULTITHREADING"
     ]
   ],
   [
@@ -6373,343 +6468,6 @@
     "CONFIG_USB_DEVICE_STACK",
     "y",
     "bool",
-    "y",
-    "assign",
-    [
-      "/home/sudha/zephyer_rtos/zephyer_stm32f103_blink/prj.conf",
-      4
-    ]
-  ],
-  [
-    "CONFIG_USB_DEVICE_VID",
-    "y",
-    "hex",
-    "0x2FE3",
-    "default",
-    [
-      "/home/sudha/zephyer_rtos/zephyr/subsys/usb/device/Kconfig",
-      22
-    ]
-  ],
-  [
-    "CONFIG_USB_DEVICE_PID",
-    "y",
-    "hex",
-    "0x0100",
-    "default",
-    [
-      "/home/sudha/zephyer_rtos/zephyr/subsys/usb/device/Kconfig",
-      28
-    ]
-  ],
-  [
-    "CONFIG_USB_DEVICE_MANUFACTURER",
-    "y",
-    "string",
-    "ZEPHYR",
-    "default",
-    [
-      "/home/sudha/zephyer_rtos/zephyr/subsys/usb/device/Kconfig",
-      34
-    ]
-  ],
-  [
-    "CONFIG_USB_DEVICE_PRODUCT",
-    "y",
-    "string",
-    "USB-DEV",
-    "default",
-    [
-      "/home/sudha/zephyer_rtos/zephyr/subsys/usb/device/Kconfig",
-      40
-    ]
-  ],
-  [
-    "CONFIG_USB_DEVICE_SN",
-    "y",
-    "string",
-    "0123456789ABCDEF",
-    "default",
-    [
-      "/home/sudha/zephyer_rtos/zephyr/subsys/usb/device/Kconfig",
-      46
-    ]
-  ],
-  [
-    "CONFIG_USB_CONFIGURATION_STRING_DESC_ENABLE",
-    "y",
-    "bool",
-    null,
-    "unset",
-    null
-  ],
-  [
-    "CONFIG_USB_COMPOSITE_DEVICE",
-    "y",
-    "bool",
-    "y",
-    "select",
-    [
-      "USB_CDC_ACM && SERIAL && DT_HAS_ZEPHYR_CDC_ACM_UART_ENABLED && USB_DEVICE_STACK"
-    ]
-  ],
-  [
-    "CONFIG_USB_MAX_NUM_TRANSFERS",
-    "y",
-    "int",
-    "4",
-    "default",
-    [
-      "/home/sudha/zephyer_rtos/zephyr/subsys/usb/device/Kconfig",
-      79
-    ]
-  ],
-  [
-    "CONFIG_USB_REQUEST_BUFFER_SIZE",
-    "y",
-    "int",
-    "128",
-    "default",
-    [
-      "/home/sudha/zephyer_rtos/zephyr/subsys/usb/device/Kconfig",
-      99
-    ]
-  ],
-  [
-    "CONFIG_USB_MAX_ALT_SETTING",
-    "y",
-    "int",
-    "8",
-    "default",
-    [
-      "/home/sudha/zephyer_rtos/zephyr/subsys/usb/device/Kconfig",
-      104
-    ]
-  ],
-  [
-    "CONFIG_USB_NUMOF_EP_WRITE_RETRIES",
-    "y",
-    "int",
-    "3",
-    "default",
-    [
-      "/home/sudha/zephyer_rtos/zephyr/subsys/usb/device/Kconfig",
-      111
-    ]
-  ],
-  [
-    "CONFIG_USB_DEVICE_SOF",
-    "y",
-    "bool",
-    null,
-    "unset",
-    null
-  ],
-  [
-    "CONFIG_USB_DEVICE_BOS",
-    "y",
-    "bool",
-    null,
-    "unset",
-    null
-  ],
-  [
-    "CONFIG_USB_DEVICE_OS_DESC",
-    "y",
-    "bool",
-    null,
-    "unset",
-    null
-  ],
-  [
-    "CONFIG_USB_SELF_POWERED",
-    "y",
-    "bool",
-    "y",
-    "default",
-    [
-      "/home/sudha/zephyer_rtos/zephyr/subsys/usb/device/Kconfig",
-      127
-    ]
-  ],
-  [
-    "CONFIG_USB_MAX_POWER",
-    "y",
-    "int",
-    "50",
-    "default",
-    [
-      "/home/sudha/zephyer_rtos/zephyr/subsys/usb/device/Kconfig",
-      134
-    ]
-  ],
-  [
-    "CONFIG_USB_WORKQUEUE",
-    "y",
-    "bool",
-    "y",
-    "default",
-    [
-      "/home/sudha/zephyer_rtos/zephyr/subsys/usb/device/Kconfig",
-      142
-    ]
-  ],
-  [
-    "CONFIG_USB_WORKQUEUE_STACK_SIZE",
-    "y",
-    "int",
-    "1024",
-    "default",
-    [
-      "/home/sudha/zephyer_rtos/zephyr/subsys/usb/device/Kconfig",
-      159
-    ]
-  ],
-  [
-    "CONFIG_USB_WORKQUEUE_PRIORITY",
-    "y",
-    "int",
-    "-1",
-    "default",
-    [
-      "/home/sudha/zephyer_rtos/zephyr/subsys/usb/device/Kconfig",
-      166
-    ]
-  ],
-  [
-    "CONFIG_USB_DEVICE_INITIALIZE_AT_BOOT",
-    "y",
-    "bool",
-    null,
-    "unset",
-    null
-  ],
-  [
-    "CONFIG_USB_CDC_ACM",
-    "y",
-    "bool",
-    "y",
-    "assign",
-    [
-      "/home/sudha/zephyer_rtos/zephyer_stm32f103_blink/prj.conf",
-      5
-    ]
-  ],
-  [
-    "CONFIG_USB_CDC_ACM_RINGBUF_SIZE",
-    "y",
-    "int",
-    "1024",
-    "default",
-    [
-      "/home/sudha/zephyer_rtos/zephyr/subsys/usb/device/class/Kconfig.cdc",
-      23
-    ]
-  ],
-  [
-    "CONFIG_CDC_ACM_INTERRUPT_EP_MPS",
-    "n",
-    "int",
-    "16",
-    "default",
-    [
-      "/home/sudha/zephyer_rtos/zephyr/subsys/usb/device/class/Kconfig.cdc",
-      29
-    ]
-  ],
-  [
-    "CONFIG_CDC_ACM_BULK_EP_MPS",
-    "n",
-    "int",
-    "64",
-    "default",
-    [
-      "/home/sudha/zephyer_rtos/zephyr/subsys/usb/device/class/Kconfig.cdc",
-      36
-    ]
-  ],
-  [
-    "CONFIG_CDC_ACM_TX_DELAY_MS",
-    "n",
-    "int",
-    "100",
-    "default",
-    [
-      "/home/sudha/zephyer_rtos/zephyr/subsys/usb/device/class/Kconfig.cdc",
-      42
-    ]
-  ],
-  [
-    "CONFIG_CDC_ACM_IAD",
-    "y",
-    "bool",
-    "y",
-    "default",
-    [
-      "/home/sudha/zephyer_rtos/zephyr/subsys/usb/device/class/Kconfig.cdc",
-      49
-    ]
-  ],
-  [
-    "CONFIG_CDC_ACM_DTE_RATE_CALLBACK_SUPPORT",
-    "y",
-    "bool",
-    null,
-    "unset",
-    null
-  ],
-  [
-    "CONFIG_USB_MASS_STORAGE",
-    "y",
-    "bool",
-    null,
-    "unset",
-    null
-  ],
-  [
-    "CONFIG_USB_DEVICE_BLUETOOTH",
-    "y",
-    "bool",
-    null,
-    "unset",
-    null
-  ],
-  [
-    "CONFIG_USB_DEVICE_NETWORK_ECM",
-    "y",
-    "bool",
-    null,
-    "unset",
-    null
-  ],
-  [
-    "CONFIG_USB_DEVICE_NETWORK_EEM",
-    "y",
-    "bool",
-    null,
-    "unset",
-    null
-  ],
-  [
-    "CONFIG_USB_DEVICE_NETWORK_RNDIS",
-    "y",
-    "bool",
-    null,
-    "unset",
-    null
-  ],
-  [
-    "CONFIG_USB_DEVICE_HID",
-    "y",
-    "bool",
-    null,
-    "unset",
-    null
-  ],
-  [
-    "CONFIG_USB_DEVICE_AUDIO",
-    "y",
-    "bool",
     null,
     "unset",
     null
@@ -7037,20 +6795,19 @@
     "CONFIG_COMPILER_FREESTANDING",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "y",
+    "imply",
+    [
+      "MINIMAL_LIBC && !REQUIRES_FULL_LIBC && MINIMAL_LIBC_SUPPORTED && <choice LIBC_IMPLEMENTATION>"
+    ]
   ],
   [
     "CONFIG_SIZE_OPTIMIZATIONS",
     "y",
     "bool",
     "y",
-    "default",
-    [
-      "/home/sudha/zephyer_rtos/zephyr/Kconfig.zephyr",
-      506
-    ]
+    "assign",
+    null
   ],
   [
     "CONFIG_SIZE_OPTIMIZATIONS_AGGRESSIVE",
@@ -7134,20 +6891,20 @@
     "CONFIG_FORTIFY_SOURCE_NONE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "y",
+    "default",
+    [
+      "/home/sudha/zephyer_rtos/zephyr/Kconfig.zephyr",
+      597
+    ]
   ],
   [
     "CONFIG_FORTIFY_SOURCE_COMPILE_TIME",
     "y",
     "bool",
-    "y",
-    "default",
-    [
-      "/home/sudha/zephyer_rtos/zephyr/Kconfig.zephyr",
-      598
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_FORTIFY_SOURCE_RUN_TIME",
@@ -7442,17 +7199,6 @@
     null,
     "unset",
     null
-  ],
-  [
-    "CONFIG_DEPRECATED",
-    "n",
-    "bool",
-    "y",
-    "select",
-    [
-      "USB_DEVICE_DRIVER",
-      "USB_DEVICE_STACK"
-    ]
   ],
   [
     "CONFIG_WARN_DEPRECATED",

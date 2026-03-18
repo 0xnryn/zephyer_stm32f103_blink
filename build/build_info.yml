@@ -10,6 +10,7 @@ cmake:
     revision: 'blue'
   devicetree:
     bindings-dirs:
+     - '/home/sudha/zephyer_rtos/modules/HX711_zephyr_driver/dts/bindings'
      - '/home/sudha/zephyer_rtos/zephyr/dts/bindings'
     files:
      - '/home/sudha/zephyer_rtos/zephyr/boards/others/stm32_min_dev/stm32_min_dev.dts'
@@ -27,6 +28,7 @@ cmake:
      - '/home/sudha/zephyer_rtos/modules/hal/nxp/dts'
      - '/home/sudha/zephyer_rtos/modules/hal/stm32/dts'
      - '/home/sudha/zephyer_rtos/modules/hal/ti/dts'
+     - '/home/sudha/zephyer_rtos/modules/HX711_zephyr_driver/dts'
      - '/home/sudha/zephyer_rtos/zephyr/include'
      - '/home/sudha/zephyer_rtos/zephyr/include/zephyr'
      - '/home/sudha/zephyer_rtos/zephyr/dts/common'

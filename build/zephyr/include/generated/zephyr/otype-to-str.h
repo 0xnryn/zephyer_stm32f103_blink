@@ -47,7 +47,8 @@ case K_OBJ_SENSOR_DECODER_API: ret = "sensor_decoder_api"; break;
 #endif
 /* Driver subsystems */
 case K_OBJ_DRIVER_GPIO: ret = "gpio driver"; break;
-case K_OBJ_DRIVER_RESET: ret = "reset driver"; break;
+case K_OBJ_DRIVER_SENSOR: ret = "sensor driver"; break;
+case K_OBJ_DRIVER_SPI: ret = "spi driver"; break;
 case K_OBJ_DRIVER_SHARED_IRQ: ret = "shared_irq driver"; break;
 case K_OBJ_DRIVER_CRYPTO: ret = "crypto driver"; break;
 case K_OBJ_DRIVER_ADC: ret = "adc driver"; break;
@@ -102,12 +103,11 @@ case K_OBJ_DRIVER_PTP_CLOCK: ret = "ptp_clock driver"; break;
 case K_OBJ_DRIVER_PWM: ret = "pwm driver"; break;
 case K_OBJ_DRIVER_REGULATOR_PARENT: ret = "regulator_parent driver"; break;
 case K_OBJ_DRIVER_REGULATOR: ret = "regulator driver"; break;
+case K_OBJ_DRIVER_RESET: ret = "reset driver"; break;
 case K_OBJ_DRIVER_RETAINED_MEM: ret = "retained_mem driver"; break;
 case K_OBJ_DRIVER_RTC: ret = "rtc driver"; break;
 case K_OBJ_DRIVER_SDHC: ret = "sdhc driver"; break;
-case K_OBJ_DRIVER_SENSOR: ret = "sensor driver"; break;
 case K_OBJ_DRIVER_SMBUS: ret = "smbus driver"; break;
-case K_OBJ_DRIVER_SPI: ret = "spi driver"; break;
 case K_OBJ_DRIVER_SYSCON: ret = "syscon driver"; break;
 case K_OBJ_DRIVER_TEE: ret = "tee driver"; break;
 case K_OBJ_DRIVER_UAOL: ret = "uaol driver"; break;

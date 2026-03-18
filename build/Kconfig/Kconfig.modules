@@ -337,6 +337,12 @@ config ZEPHYR_ZCBOR_MODULE
 	bool
 	default y
 endmenu
+menu "HX711 (/home/sudha/zephyer_rtos/modules/HX711_zephyr_driver)"
+osource "/home/sudha/zephyer_rtos/modules/HX711_zephyr_driver/Kconfig"
+config ZEPHYR_HX711_MODULE
+	bool
+	default y
+endmenu
 config ZEPHYR_NRF_HW_MODELS_MODULE
 	bool
 	default y

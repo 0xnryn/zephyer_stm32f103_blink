@@ -17,7 +17,7 @@ linker.cmd: \
  /home/sudha/zephyer_rtos/zephyr/include/zephyr/sys/util_internal_util_inc.h \
  /home/sudha/zephyer_rtos/zephyr/include/zephyr/sys/util_internal_util_dec.h \
  /home/sudha/zephyer_rtos/zephyr/include/zephyr/sys/util_internal_util_x2.h \
- /nix/store/2rgfn3mq975wy8yrvj571y641laqwk01-zephyr-sdk-0.17.4/arm-zephyr-eabi/lib/gcc/arm-zephyr-eabi/12.2.0/include/stdbool.h \
+ /home/sudha/zephyer_rtos/zephyr/lib/libc/minimal/include/stdbool.h \
  /home/sudha/zephyer_rtos/zephyr/include/zephyr/devicetree/io-channels.h \
  /home/sudha/zephyer_rtos/zephyr/include/zephyr/devicetree/clocks.h \
  /home/sudha/zephyer_rtos/zephyr/include/zephyr/devicetree/gpio.h \

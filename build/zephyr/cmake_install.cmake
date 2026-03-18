@@ -359,6 +359,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+  include("/home/sudha/zephyer_rtos/zephyer_stm32f103_blink/build/modules/HX711/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
   include("/home/sudha/zephyer_rtos/zephyer_stm32f103_blink/build/modules/nrf_hw_models/cmake_install.cmake")
 endif()
 

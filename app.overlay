@@ -1,13 +1,53 @@
 / {
-	chosen {
-		zephyr,console = &cdc_acm_uart0;
-		zephyr,shell-uart = &cdc_acm_uart0;
+	aliases {
+		scale = &hx711;
+		tare-btn = &tare_button;
+		down-btn = &down_button;
+		up-btn = &up_button;
+	};
+
+	buttons {
+		compatible = "gpio-keys";
+		tare_button: button_0 {
+			gpios = <&gpioa 3 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
+			label = "Tare / Auto Mode Button";
+		};
+		down_button: button_1 {
+			gpios = <&gpioa 1 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
+			label = "Manual Down Button";
+		};
+		up_button: button_2 {
+			gpios = <&gpioa 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
+			label = "Manual Up Button";
+		};
+	};
+
+	hx711: hx711 {
+		compatible = "avia,hx711";
+		status = "okay";
+		label = "HX711";
+		dout-gpios = <&gpiob 8 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+		sck-gpios = <&gpiob 9 GPIO_ACTIVE_HIGH>;
 	};
 };
 
-/* Attach a CDC-ACM (Virtual Serial) device to the USB controller */
-&zephyr_udc0 {
-	cdc_acm_uart0: cdc_acm_uart0 {
-		compatible = "zephyr,cdc-acm-uart";
+&spi1 {
+	status = "okay";
+	cs-gpios = <&gpioa 4 GPIO_ACTIVE_LOW>;
+	ssd1306: ssd1306@0 {
+		compatible = "solomon,ssd1306";
+		reg = <0>;
+		spi-max-frequency = <12000000>;
+		width = <128>;
+		height = <64>;
+		segment-offset = <0>;
+		page-offset = <0>;
+		display-offset = <0>;
+		multiplex-ratio = <63>;
+		segment-remap;
+		com-invdir;
+		prechargep = <0x22>;
+		data-cmd-gpios = <&gpiob 1 GPIO_ACTIVE_HIGH>;
+		reset-gpios = <&gpiob 0 GPIO_ACTIVE_LOW>;
 	};
 };

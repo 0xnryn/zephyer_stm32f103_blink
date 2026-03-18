@@ -1847,6 +1847,11 @@ DT_COMPAT_AVAGO_APDS9960 := avago,apds9960
 config DT_HAS_AVAGO_APDS9960_ENABLED
 	def_bool $(dt_compat_enabled,$(DT_COMPAT_AVAGO_APDS9960))
 
+DT_COMPAT_AVIA_HX711 := avia,hx711
+
+config DT_HAS_AVIA_HX711_ENABLED
+	def_bool $(dt_compat_enabled,$(DT_COMPAT_AVIA_HX711))
+
 DT_COMPAT_AWINIC_AW9523B := awinic,aw9523b
 
 config DT_HAS_AWINIC_AW9523B_ENABLED

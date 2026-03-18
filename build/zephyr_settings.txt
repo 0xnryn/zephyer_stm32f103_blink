@@ -17,3 +17,4 @@
 "DTS_ROOT":"/home/sudha/zephyer_rtos/modules/hal/nxp"
 "DTS_ROOT":"/home/sudha/zephyer_rtos/modules/hal/stm32"
 "DTS_ROOT":"/home/sudha/zephyer_rtos/modules/hal/ti"
+"DTS_ROOT":"/home/sudha/zephyer_rtos/modules/HX711_zephyr_driver"

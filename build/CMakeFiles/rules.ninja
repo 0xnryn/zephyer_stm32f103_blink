@@ -6,7 +6,7 @@
 # It is included in the main 'build.ninja'.
 
 # =============================================================================
-# Project: blinky
+# Project: hoist_app
 # Configurations: 
 # =============================================================================
 # =============================================================================
@@ -81,7 +81,7 @@ rule C_COMPILER__zephyr_pre0_unscanned_
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__zephyr_pre0_
-  command = $PRE_LINK && /nix/store/2rgfn3mq975wy8yrvj571y641laqwk01-zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES -L"/nix/store/2rgfn3mq975wy8yrvj571y641laqwk01-zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/thumb/v7-m/nofp" -lc -lgcc && $POST_BUILD
+  command = $PRE_LINK && /nix/store/2rgfn3mq975wy8yrvj571y641laqwk01-zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES -L"/nix/store/2rgfn3mq975wy8yrvj571y641laqwk01-zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/thumb/v7-m/nofp"  -lgcc && $POST_BUILD
   description = Linking C executable $TARGET_FILE; Logical command for additional byproducts on target: zephyr_pre0
   restat = $RESTAT
 
@@ -100,7 +100,7 @@ rule C_COMPILER__zephyr_final_unscanned_
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__zephyr_final_
-  command = $PRE_LINK && /nix/store/2rgfn3mq975wy8yrvj571y641laqwk01-zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES -L"/nix/store/2rgfn3mq975wy8yrvj571y641laqwk01-zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/thumb/v7-m/nofp" -lc -lgcc && $POST_BUILD
+  command = $PRE_LINK && /nix/store/2rgfn3mq975wy8yrvj571y641laqwk01-zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES -L"/nix/store/2rgfn3mq975wy8yrvj571y641laqwk01-zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/thumb/v7-m/nofp"  -lgcc && $POST_BUILD
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -204,7 +204,7 @@ rule C_STATIC_LIBRARY_LINKER__arch__arm__core__cortex_m_
 #############################################
 # Rule for compiling C files.
 
-rule C_COMPILER__lib__libc__picolibc_unscanned_
+rule C_COMPILER__lib__libc__minimal_unscanned_
   depfile = $DEP_FILE
   deps = gcc
   command = ${LAUNCHER}${CODE_CHECK}/nix/store/2rgfn3mq975wy8yrvj571y641laqwk01-zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -214,7 +214,7 @@ rule C_COMPILER__lib__libc__picolibc_unscanned_
 #############################################
 # Rule for linking C static library.
 
-rule C_STATIC_LIBRARY_LINKER__lib__libc__picolibc_
+rule C_STATIC_LIBRARY_LINKER__lib__libc__minimal_
   command = $PRE_LINK && /nix/store/1m0z4ixir10fg7ba7g131js04bxgv265-cmake-4.1.2/bin/cmake -E rm -f $TARGET_FILE && /nix/store/2rgfn3mq975wy8yrvj571y641laqwk01-zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && /nix/store/2rgfn3mq975wy8yrvj571y641laqwk01-zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib $TARGET_FILE && $POST_BUILD
   description = Linking C static library $TARGET_FILE
   restat = $RESTAT
@@ -280,25 +280,6 @@ rule C_STATIC_LIBRARY_LINKER__drivers__interrupt_controller_
 #############################################
 # Rule for compiling C files.
 
-rule C_COMPILER__drivers__usb__device_unscanned_
-  depfile = $DEP_FILE
-  deps = gcc
-  command = ${LAUNCHER}${CODE_CHECK}/nix/store/2rgfn3mq975wy8yrvj571y641laqwk01-zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
-  description = Building C object $out
-
-
-#############################################
-# Rule for linking C static library.
-
-rule C_STATIC_LIBRARY_LINKER__drivers__usb__device_
-  command = $PRE_LINK && /nix/store/1m0z4ixir10fg7ba7g131js04bxgv265-cmake-4.1.2/bin/cmake -E rm -f $TARGET_FILE && /nix/store/2rgfn3mq975wy8yrvj571y641laqwk01-zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && /nix/store/2rgfn3mq975wy8yrvj571y641laqwk01-zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib $TARGET_FILE && $POST_BUILD
-  description = Linking C static library $TARGET_FILE
-  restat = $RESTAT
-
-
-#############################################
-# Rule for compiling C files.
-
 rule C_COMPILER__drivers__clock_control_unscanned_
   depfile = $DEP_FILE
   deps = gcc
@@ -318,7 +299,7 @@ rule C_STATIC_LIBRARY_LINKER__drivers__clock_control_
 #############################################
 # Rule for compiling C files.
 
-rule C_COMPILER__drivers__console_unscanned_
+rule C_COMPILER__drivers__display_unscanned_
   depfile = $DEP_FILE
   deps = gcc
   command = ${LAUNCHER}${CODE_CHECK}/nix/store/2rgfn3mq975wy8yrvj571y641laqwk01-zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -328,7 +309,7 @@ rule C_COMPILER__drivers__console_unscanned_
 #############################################
 # Rule for linking C static library.
 
-rule C_STATIC_LIBRARY_LINKER__drivers__console_
+rule C_STATIC_LIBRARY_LINKER__drivers__display_
   command = $PRE_LINK && /nix/store/1m0z4ixir10fg7ba7g131js04bxgv265-cmake-4.1.2/bin/cmake -E rm -f $TARGET_FILE && /nix/store/2rgfn3mq975wy8yrvj571y641laqwk01-zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && /nix/store/2rgfn3mq975wy8yrvj571y641laqwk01-zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib $TARGET_FILE && $POST_BUILD
   description = Linking C static library $TARGET_FILE
   restat = $RESTAT
@@ -356,25 +337,6 @@ rule C_STATIC_LIBRARY_LINKER__drivers__gpio_
 #############################################
 # Rule for compiling C files.
 
-rule C_COMPILER__drivers__hwinfo_unscanned_
-  depfile = $DEP_FILE
-  deps = gcc
-  command = ${LAUNCHER}${CODE_CHECK}/nix/store/2rgfn3mq975wy8yrvj571y641laqwk01-zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
-  description = Building C object $out
-
-
-#############################################
-# Rule for linking C static library.
-
-rule C_STATIC_LIBRARY_LINKER__drivers__hwinfo_
-  command = $PRE_LINK && /nix/store/1m0z4ixir10fg7ba7g131js04bxgv265-cmake-4.1.2/bin/cmake -E rm -f $TARGET_FILE && /nix/store/2rgfn3mq975wy8yrvj571y641laqwk01-zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && /nix/store/2rgfn3mq975wy8yrvj571y641laqwk01-zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib $TARGET_FILE && $POST_BUILD
-  description = Linking C static library $TARGET_FILE
-  restat = $RESTAT
-
-
-#############################################
-# Rule for compiling C files.
-
 rule C_COMPILER__drivers__pinctrl_unscanned_
   depfile = $DEP_FILE
   deps = gcc
@@ -394,7 +356,7 @@ rule C_STATIC_LIBRARY_LINKER__drivers__pinctrl_
 #############################################
 # Rule for compiling C files.
 
-rule C_COMPILER__drivers__reset_unscanned_
+rule C_COMPILER__drivers__sensor_unscanned_
   depfile = $DEP_FILE
   deps = gcc
   command = ${LAUNCHER}${CODE_CHECK}/nix/store/2rgfn3mq975wy8yrvj571y641laqwk01-zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -404,7 +366,7 @@ rule C_COMPILER__drivers__reset_unscanned_
 #############################################
 # Rule for linking C static library.
 
-rule C_STATIC_LIBRARY_LINKER__drivers__reset_
+rule C_STATIC_LIBRARY_LINKER__drivers__sensor_
   command = $PRE_LINK && /nix/store/1m0z4ixir10fg7ba7g131js04bxgv265-cmake-4.1.2/bin/cmake -E rm -f $TARGET_FILE && /nix/store/2rgfn3mq975wy8yrvj571y641laqwk01-zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && /nix/store/2rgfn3mq975wy8yrvj571y641laqwk01-zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib $TARGET_FILE && $POST_BUILD
   description = Linking C static library $TARGET_FILE
   restat = $RESTAT
@@ -413,7 +375,7 @@ rule C_STATIC_LIBRARY_LINKER__drivers__reset_
 #############################################
 # Rule for compiling C files.
 
-rule C_COMPILER__drivers__serial_unscanned_
+rule C_COMPILER__drivers__spi_unscanned_
   depfile = $DEP_FILE
   deps = gcc
   command = ${LAUNCHER}${CODE_CHECK}/nix/store/2rgfn3mq975wy8yrvj571y641laqwk01-zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -423,7 +385,7 @@ rule C_COMPILER__drivers__serial_unscanned_
 #############################################
 # Rule for linking C static library.
 
-rule C_STATIC_LIBRARY_LINKER__drivers__serial_
+rule C_STATIC_LIBRARY_LINKER__drivers__spi_
   command = $PRE_LINK && /nix/store/1m0z4ixir10fg7ba7g131js04bxgv265-cmake-4.1.2/bin/cmake -E rm -f $TARGET_FILE && /nix/store/2rgfn3mq975wy8yrvj571y641laqwk01-zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && /nix/store/2rgfn3mq975wy8yrvj571y641laqwk01-zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib $TARGET_FILE && $POST_BUILD
   description = Linking C static library $TARGET_FILE
   restat = $RESTAT
@@ -462,6 +424,44 @@ rule C_COMPILER__.2e.2e__modules__hal__stm32__stm32cube_unscanned_
 # Rule for linking C static library.
 
 rule C_STATIC_LIBRARY_LINKER__.2e.2e__modules__hal__stm32__stm32cube_
+  command = $PRE_LINK && /nix/store/1m0z4ixir10fg7ba7g131js04bxgv265-cmake-4.1.2/bin/cmake -E rm -f $TARGET_FILE && /nix/store/2rgfn3mq975wy8yrvj571y641laqwk01-zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && /nix/store/2rgfn3mq975wy8yrvj571y641laqwk01-zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib $TARGET_FILE && $POST_BUILD
+  description = Linking C static library $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling C files.
+
+rule C_COMPILER__.2e.2e__modules__HX711_zephyr_driver__drivers__sensor__hx711_unscanned_
+  depfile = $DEP_FILE
+  deps = gcc
+  command = ${LAUNCHER}${CODE_CHECK}/nix/store/2rgfn3mq975wy8yrvj571y641laqwk01-zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building C object $out
+
+
+#############################################
+# Rule for linking C static library.
+
+rule C_STATIC_LIBRARY_LINKER__.2e.2e__modules__HX711_zephyr_driver__drivers__sensor__hx711_
+  command = $PRE_LINK && /nix/store/1m0z4ixir10fg7ba7g131js04bxgv265-cmake-4.1.2/bin/cmake -E rm -f $TARGET_FILE && /nix/store/2rgfn3mq975wy8yrvj571y641laqwk01-zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && /nix/store/2rgfn3mq975wy8yrvj571y641laqwk01-zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib $TARGET_FILE && $POST_BUILD
+  description = Linking C static library $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling C files.
+
+rule C_COMPILER__.2e.2e__modules__HX711_zephyr_driver__drivers__sensor__hx711__filters_unscanned_
+  depfile = $DEP_FILE
+  deps = gcc
+  command = ${LAUNCHER}${CODE_CHECK}/nix/store/2rgfn3mq975wy8yrvj571y641laqwk01-zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building C object $out
+
+
+#############################################
+# Rule for linking C static library.
+
+rule C_STATIC_LIBRARY_LINKER__.2e.2e__modules__HX711_zephyr_driver__drivers__sensor__hx711__filters_
   command = $PRE_LINK && /nix/store/1m0z4ixir10fg7ba7g131js04bxgv265-cmake-4.1.2/bin/cmake -E rm -f $TARGET_FILE && /nix/store/2rgfn3mq975wy8yrvj571y641laqwk01-zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && /nix/store/2rgfn3mq975wy8yrvj571y641laqwk01-zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib $TARGET_FILE && $POST_BUILD
   description = Linking C static library $TARGET_FILE
   restat = $RESTAT
